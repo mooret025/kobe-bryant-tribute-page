@@ -1,4 +1,4 @@
-h1 {
+/* h1 {
     font-family: cursive;
 }
 
@@ -27,4 +27,17 @@ table {
 img {
     border: 2px solid #f7e816;
     border-radius: 75%;
+} */
+
+#main {
+    display: block;
+    background-color: blueviolet;
 }
+
+.main {
+    overflow: hidden;
+}
+
+#title {}
+
+#img-div {}
