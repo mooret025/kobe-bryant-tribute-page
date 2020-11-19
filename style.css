@@ -31,11 +31,58 @@ img {
 
 #main {
     display: block;
-    background-color: blueviolet;
+    background-color: #6d2994;
+}
+
+.large-12 {
+    flex-basis: 100%;
+    max-width: 100%;
+    width: 100%;
+}
+
+.column.xlarge-gutter,
+.column-gutter {
+    padding-left: 0.75em;
+    padding-right: 0.75em;
+}
+
+.column {
+    position: relative;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    min-width: 0px;
+}
+
+.text-center {
+    text-align: center;
 }
 
 .main {
     overflow: hidden;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.grid {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    min-width: 0;
+    max-width: 980px;
+    margin: 0 auto;
+}
+
+.margin-top {
+    margin-bottom: 3em !important;
+}
+
+.margin-bottom {
+    margin-top: 3em !important;
 }
 
 #title {}
