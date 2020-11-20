@@ -35,7 +35,5 @@ img {
 }
 
 #img-div {
-    position: relative;
-    background-size: cover;
-    background-position: top;
+    width: 100%;
 }
