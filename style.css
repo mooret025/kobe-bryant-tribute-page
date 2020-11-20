@@ -34,7 +34,7 @@ img {
     background-color: #6d2994;
 }
 
-.large-12 {
+/* .large-12 {
     flex-basis: 100%;
     max-width: 100%;
     width: 100%;
@@ -86,5 +86,9 @@ img {
 }
 
 #title {}
-
-#img-div {}
+*/
+#img-div {
+    position: relative;
+    background-size: cover;
+    background-position: top;
+}
